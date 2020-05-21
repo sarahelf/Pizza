@@ -1,0 +1,366 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+}
+
+nav{
+  background: #323232;
+  height: 80px;
+  width: 100%;
+}
+.logo img{
+  color: white;
+  line-height: 80px;
+  padding: 0 33px;
+  padding-top: 15px;
+}
+nav ul{
+  float: right;
+  margin-right: 15px;
+  font-family: roboto;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: black;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+@media (max-width: 767px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #323232;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
+/* Hide on desktops  */
+@media all and (min-width:768px) { 
+    nav ul li a
+    .main-header h1 h2
+    .OurStory h3 h2 
+    .PrivateEvent h3 h4 p
+    .main-footer h2 h3 h4 h5 p 
+    {display:none}
+}
+
+@media all and (max-width:767px) { 
+
+  body  { max-width: 767px; margin: 0 auto}
+  html, body {
+  height: auto;
+  width:100%;
+  margin: 0;
+  padding:0;
+  background-color: #ffff;
+  background-position: center;
+  z-index: -1;
+  color:white;
+       
+  }
+  /* ................... Body ......................*/
+
+  /* ...................Navagition ......................*/
+  
+  .main-head-mobile  {
+  background-image: url("img/menu-mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 0px;
+  width: 100%;
+  height: 800px; 
+  }
+
+  /* ...................End Navagition ......................*/
+
+  /* ...................Header ......................*/
+
+  .main-head-mobile h1  {
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: normal;
+    color: black;
+    padding-top:17%;
+    padding-right: 10px;
+
+  }
+
+  .main-head-mobile p  {
+    text-align: center;
+    margin: 0;
+    font-size: 13px;
+    font-family: roboto;
+    font-weight: normal;
+    color: black;
+    padding-top:25px;
+    height: 70px;
+    width: 75%;
+    padding-left:100px; 
+
+  }
+
+
+
+  /* ...................Footer ......................*/
+
+  .footer-mobile{
+    background-color: #323232;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 700px;
+  }
+
+  .footer-mobile h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    font-weight: normal;    
+  }
+
+  .footer-mobile h3{
+    font-family: roboto,normal;
+    font-size: 12px;
+    padding-left: 33%;
+    top:15%;
+    position: absolute;
+    text-align: center;
+    font-weight: lighter;
+  }
+
+  .footer-mobile h4{
+    font-family: roboto,normal;
+    font-size: 12px;
+    padding-left: 24%;
+    top:30%;
+    position: absolute;
+    text-align: center;
+    font-weight: lighter;
+  }
+
+  .footer-mobile h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding-left: 24%;
+    top:42%;
+    position: absolute;
+    text-align: center;
+    display: block;
+    font-weight: lighter;
+  }
+
+  .map-mobile{
+    float: bottom; 
+    display: block;
+    padding-top: 40px;
+    right: 10%;
+    position: absolute;
+    top:50%;  
+  }
+
+  .map-mobile p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-weight: lighter;
+  }
+  
+}
+
+
+
+
+/* ...................Hide on Desktop ......................*/
+
+@media all and (max-width:767px) { 
+  .main-header-mobile
+  .main-head-mobile
+  .OurStory-mobile h2 
+  .PrivateEvent-mobile
+  .main-footer-mobile
+  .footer-mobile
+  .map-mobile
+  { display: none;}
+}
+
+
+@media all and (min-width:768px) { 
+   
+  body { max-width: 1900px; margin: 0 auto}
+  html, body {
+  height: auto;
+  width:100%;
+  margin: 0;
+  padding:0;
+  background-color: #ffff;
+  background-position: center;
+  z-index: -1;
+  color:white;   
+  }
+  /* ................... Body ......................*/
+
+  /* ...................Navagition ......................*/
+
+  .main-head {
+    background-image: url("img/menu-desk.jpg");
+    background-size: cover;
+    padding-bottom: 0px;
+    width: 100%;
+    height: 1080px; 
+  }
+
+    /* ...................End Navagition ......................*/
+
+    /* ...................Header ......................*/
+  .main-head h1{ 
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    font-family: roboto;
+    font-weight: normal;
+    color: black;
+    padding-top: 13%;
+  }
+
+  .main-head p{ 
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: roboto;
+   font-weight: normal;
+    color: black;
+    padding-top: 45px;
+  }
+
+
+
+  /* ...................Footer ......................*/
+
+  .footer{
+    background-color: #323232;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .footer h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    font-weight: normal;
+
+  }
+
+  .footer h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 20%;
+    top:24%;
+    position: absolute;
+    font-weight: lighter;
+    padding-bottom: 30px; 
+  }
+
+  .footer h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 20%;
+    top:50%;
+    position: absolute;
+    font-weight: lighter;
+    padding-bottom: 30px;
+     
+  }
+
+  .footer h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 20%;
+    top: 70%;
+    position: absolute;
+    font-weight: lighter;
+    padding-bottom: 30px; 
+  }
+
+  .map{
+    float: right; 
+    display: block;
+    padding-top: 40px;
+    right: 20%;
+    position: relative;
+   
+  }
+
+  .map p{
+   font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-weight: lighter;
+  }
+}
+
+
+
+
+
+
+
