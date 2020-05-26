@@ -526,6 +526,16 @@ a.active,a:hover{
 }
 
 /* -------------------------------Mobile-----------------------------------*/
+/* Hide on desktops  */
+@media all and (min-width:768px) { 
+    nav ul li a
+    .main-header h1 h2
+    .OurStory h3 h2 
+    .PrivateEvent h3 h4 p
+    .main-footer h2 h3 h4 h5 p 
+    {display:none}
+}
+
 @media all and (min-width:320px) and (max-width:767px){
 
     html, body {
