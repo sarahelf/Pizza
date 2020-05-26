@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body{
-   font-family: 'Roboto', sans-serif;
+   font-family: Roboto;
 }
 
 nav{
@@ -23,7 +23,7 @@ nav{
 nav ul{
   float: right;
   margin-right: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
 }
 nav ul li{
   display: inline-block;
@@ -134,6 +134,7 @@ a.active,a:hover{
     font-weight: bold;
     color: white;
     padding-top:36%;
+    padding-right:160px;
     text-shadow: 2px 2px 10px #3a0a04;
     
   }
@@ -205,7 +206,7 @@ a.active,a:hover{
 
   .OurStory-mobile h2{
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     padding-top: 20px;
     font-family: Roboto;
@@ -223,7 +224,7 @@ a.active,a:hover{
   .OurStory-mobile p{
     color: black;
     padding-top: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     width: 77%;
     padding-left: 10%;
     padding-bottom: 60px;
@@ -240,7 +241,7 @@ a.active,a:hover{
   .PrivateEvent-mobile h3{
     font-size: 18px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     background-color: #323232; 
     padding-bottom: 20px;
     background-position: center;
@@ -254,16 +255,16 @@ a.active,a:hover{
 
   .PrivateEvent-mobile h4{
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     padding-top: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
   }
 
   .PrivateEvent-mobile p{
     color: black;
     padding-top: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     width: 77%;
     padding-left: 10%;
     padding-bottom: 60px;
@@ -283,7 +284,7 @@ a.active,a:hover{
   }
 
   .footer-mobile h2{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     text-align: center;
     font-size: 30px;
     padding-top: 20px;
@@ -312,7 +313,7 @@ a.active,a:hover{
   }
 
   .footer-mobile h5{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 12px;
     padding-left: 24%;
     top:42%;
@@ -332,7 +333,7 @@ a.active,a:hover{
   }
 
   .map-mobile p{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 12px;
     padding-bottom: 50px;
     padding-top: 20px;
@@ -411,7 +412,7 @@ a.active,a:hover{
   .main-header h2{
     text-align: center;
     font-size: 5em;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-weight:normal;
     color: white;
     text-shadow: 2px 2px 8px #3a0a04;
@@ -422,7 +423,7 @@ a.active,a:hover{
     text-align: center;
     font-size: 30px;
     padding-top: 70px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     color:white;
     text-shadow: 2px 2px 8px #3a0a04;
   }
@@ -521,7 +522,7 @@ a.active,a:hover{
   }
 
   .footer h2{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     text-align: center;
     font-size: 30px;
     padding-top: 20px; 
@@ -530,7 +531,7 @@ a.active,a:hover{
   }
 
   .footer h3{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 18px;
     padding-left: 20%;
     top:24%;
@@ -540,7 +541,7 @@ a.active,a:hover{
   }
 
   .footer h4{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 18px;
     padding-left: 20%;
     top:55%;
@@ -549,7 +550,7 @@ a.active,a:hover{
   }
 
   .footer h5{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 18px;
     padding-left: 20%;
     top: 75%;
@@ -567,7 +568,7 @@ a.active,a:hover{
   }
 
   .map p{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 12px;
     padding-bottom: 50px;
     font-weight: lighter;
@@ -584,7 +585,7 @@ a.active,a:hover{
     padding: 0 1.5em;
 }
 .section-header {
-    font-family: "Metal Mania";
+    font-family: Metal Mania;
     font-weight: normal;
     color: #333;
     text-align: center;
